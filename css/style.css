@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(154, 222, 235);
+}
+
+.main-header{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-image: url("../Images/background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.navigation ul{
+    margin: 0;
+}
+
+.navigation li{
+    display: inline;
+}
+
+.navigation a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: purple;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.main-nav li{
+    padding: 0 5%;
+}
+
+.paragraph-heading{
+    text-decoration: underline;
+    
+}
+
+.first-line-para{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.list-style{
+    list-style: square;
+}
+
+.right-text{
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+
+.left-text{
+    text-align: left;
+    margin: 0;
+}
+
+.info{
+    text-align: center;
+    margin: 0;
+}
+
+#heading{
+    color: rgba(118, 27, 221, 0.541);
+    text-align: center;
+    margin: 0;
+}
+
+#only-heading{
+    text-align: center;
+}
+
+.tab-space{
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.main-footer{
+    background-color:rgb(7, 136, 161);
+    color: white;
+    padding: .25em 0;
+}
+
+.my-name{
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Fira Sans', 'sans-serif';
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 40px;
+    height: 40px;
+}
+
+#feedback {
+    padding: 0;
+    margin: 0;
+}
